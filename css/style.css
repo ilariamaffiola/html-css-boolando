@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1180px;
+    display: flex;
+    margin: 0 auto;
+}
+.left-col, .middle-col, .right-col {
+    color: white;
+}
+.middle-col{
+    width: 755px;
+    text-align: center;
+} 
+.strct-img{
+    width: 121px;
+}
+
+
+/*Utils*/
+.bg-orange{
+    background-color: #ff6900;
+}
+.sp-btw{
+    justify-content: space-between;
+}
+.pd-lf-rh-5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pad-top-15{
+    padding-top: 15px;
+}
+
+.pad-bot-15{
+    padding-bottom: 15px;
+}
+
+.pad-top-10{
+    padding-top: 10px;
+}
