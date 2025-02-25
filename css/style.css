@@ -63,7 +63,12 @@ main{
 .color-white{
     color: #fff;
 }
-.color-black
+.color-red{
+    color: red;
+}
+.color-blk{
+    color: black;
+}
 
 
 .pd-lf-rh-5{
