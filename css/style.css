@@ -25,25 +25,45 @@ header{
 }
 /*main*/
 main{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .col-30{
     width: 30%;
 }
 .card{
     width: 100%;
+    position: relative;
 }
 .card img{
     max-width: 100%;
 }
+.label{
+    padding: 5px 10px;
+    color:white;
+    position: absolute;
+}
 
 
 /*Utils*/
+.bottom-50{
+    bottom:50px;
+}
+.left-0{
+    left: 0;
+}
+.left-60{
+    left:60px;
+}
+
+
 .bg-orange{
     background-color: #ff6900;
 }
-.bg-silver{
-    background-color: silver;
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: #008000;
 }
 .pd-lf-rh-5{
     padding-left: 10px;
@@ -57,12 +77,6 @@ main{
 }
 .pad-top-10{
     padding-top: 10px;
-}
-.height-800{
-    height: 800px;
-}
-.height-300{
-    height: 300px;
 }
 .just-center{
     justify-content: center;
