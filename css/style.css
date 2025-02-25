@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*header*/
+header{
+    position: fixed;
+    width: 100%;
+}
 .container{
     max-width: 1180px;
     display: flex;
@@ -18,14 +23,27 @@
 .strct-img{
     width: 121px;
 }
+/*main*/
+main{
+    padding-top: 200px;
+}
+.col-30{
+    width: 30%;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    max-width: 100%;
+}
 
 
 /*Utils*/
 .bg-orange{
     background-color: #ff6900;
 }
-.sp-btw{
-    justify-content: space-between;
+.bg-silver{
+    background-color: silver;
 }
 .pd-lf-rh-5{
     padding-left: 10px;
@@ -34,11 +52,28 @@
 .pad-top-15{
     padding-top: 15px;
 }
-
 .pad-bot-15{
     padding-bottom: 15px;
 }
-
 .pad-top-10{
     padding-top: 10px;
+}
+.height-800{
+    height: 800px;
+}
+.height-300{
+    height: 300px;
+}
+.just-center{
+    justify-content: center;
+}
+.sp-btw{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.gap-87-25{
+    gap: 87px 25px;
+    
 }
