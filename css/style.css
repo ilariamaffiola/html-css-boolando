@@ -7,6 +7,7 @@
 header{
     position: fixed;
     width: 100%;
+    z-index: 4;
 }
 .container{
     max-width: 1180px;
@@ -41,6 +42,22 @@ main{
 .label{
     padding: 5px 10px;
     position: absolute;
+    z-index: 2;
+}
+.main-img{
+    position: relative;
+    z-index: 1;
+}
+.main-img:hover{
+    z-index: 0;
+    visibility: hidden; 
+}
+
+.hidden-img{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 0;
 }
 
 
